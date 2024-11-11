@@ -1,5 +1,5 @@
 # See 06-contexts/README.md for more information
-# about the how to use contexts in GitHub Actions.
+# about the how to use contexts in GitHub Actions test.
 
 name: 06 - Contexts
 run-name: 06 - Contexts | DEBUG - ${{ inputs.debug }}
