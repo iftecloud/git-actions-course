@@ -6,7 +6,10 @@ run-name: 16 - Working with Environments | ${{ inputs.target-env}}
 
 on:
   workflow_dispatch:
-
+    inputs:
+      debug:
+        type: boolean
+        default: false
 jobs:
   deploy-staging:
     runs-on: ubuntu-latest
