@@ -15,6 +15,7 @@ on:
 jobs:
   lint-build:
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - name: Lint and build
         run: echo "Linting and building project"
